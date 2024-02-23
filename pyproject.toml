@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "frozen-challenge"
+version = "0.1.0"
+description = "Inceptia Challenge"
+authors = ["Luciana Gabis <lmgabis@gmail.com>"]
+readme = "README.md"
+packages = [{include = "frozen_challenge"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
